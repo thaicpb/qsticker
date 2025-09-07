@@ -1,0 +1,17 @@
+{
+  "name": "qsticker",
+  "version": "0.1.0",
+  "description": "Lightweight SVG sticker library with customizable colors and text",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "jest",
+    "demo": "vite demo"
+  },
+  "keywords": ["sticker", "svg", "customizable", "lightweight", "animation"],
+  "author": "",
+  "license": "MIT"
+}
